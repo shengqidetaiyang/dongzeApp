@@ -1,0 +1,253 @@
+/* 
+* @Author: Marte
+* @Date:   2017-03-24 13:58:08
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-03-24 18:36:43
+*/
+.tabNav{
+    width:100%;
+    display: flex;
+}
+.tabNav .Grid-cell{
+    flex:1;
+    height:4rem;
+    text-align: center;
+    line-height:4rem;
+    font-size:1.2rem;
+    color:#919191;
+    position:relative;
+}
+.tabNav .Grid-cell .border{
+    width:1.4rem;
+    height:0.4rem;
+    position:absolute;
+    left:50%;
+    margin-left:-0.7rem;
+    bottom:0;
+    border-radius:0.2rem;
+}
+.tabNav .active{
+    color:#b12819;
+}
+.tabNav .active .border{
+    background-color:#b12819;
+}
+.searchBox{
+    width:100%;
+    height:3.5rem;
+    padding-top:0.7rem;
+}
+.searchBox img{
+    float:left;
+    width:28%;
+    margin-left:1rem;
+    margin-top:0.9rem;
+    margin-right:1.5rem;
+}
+.searchWrap{
+    position: relative;
+    float:left;
+    width:59%;
+    height:3.5rem;
+}
+.searchWrap .icon{
+    float:left;
+    width:3rem;
+    height:3.5rem;
+    background:url(../image/searchLogo.png) center center no-repeat;
+    background-size:1.5rem 1.5rem;
+}
+.searchWrap input{
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    border-width:0;
+    text-indent: 3rem;
+    font-size:1.1rem;
+    background: url(../image/searchBorder.png) center center no-repeat;
+    background-size:100% 100%;
+}
+.swiper-pagination span{
+    background-color:#b12819;
+}
+.tipsBox{
+    height:3.2rem;
+    width:100%;
+}
+.tipsBox span{
+    float:left;
+    height:3.2rem;
+    line-height:3.2rem;
+    font-size:1.2rem;
+}
+.tipsBox .icon{
+    width:4.3rem;
+    background:url(../image/loudspeaker.png) center center no-repeat;
+    background-size:1.9rem 1.8rem;
+}
+.tipsBox .tips{
+    color:#666;
+}
+.tipsBox .time{
+    float:right;
+    color:#909090;
+    padding-right:1.5rem;
+}
+.seminarBox{
+    width:100%;
+    margin-bottom:0.9rem;
+}
+.seminarBox>p{
+    height:5.2rem;
+    line-height:5.2rem;
+    text-align: center;
+    font-size:1.5rem;
+    color:#666;
+}
+.seminarBox .imgBox{
+    box-sizing:border-box;
+    width:100%;
+    height:235px;
+    padding:0 0.6rem;
+}
+.seminarBox .imgBox a{
+    float:left;
+    overflow: hidden;
+}
+.seminarBox .imgBox a:nth-of-type(1){
+    width:45%;
+    height:236px;
+}
+.seminarBox .imgBox a:nth-of-type(2),.seminarBox .imgBox a:nth-of-type(3){
+    width:54%;
+    height:116px;
+    margin-left:0.3rem;
+}
+.seminarBox .imgBox a:nth-of-type(2){
+    margin-bottom:4px;
+}
+.goodsBox{
+    width:100%;
+}
+.goodsBox>p{
+    width:100%;
+    height:4.2rem;
+    line-height:4.2rem;
+    margin-bottom:5px;
+    position:relative;
+}
+.goodsBox>p span,.goodsBox>p a{
+    height:4.2rem;
+    font-size:1.5rem;
+    color:#666;
+}
+.goodsBox>p span{
+    position:absolute;
+    width:100%;
+    left:0;
+    top:0;
+    text-align: center;
+}
+.goodsBox>p a{
+    float:right;
+    width:19%;
+    margin-right:2%;
+    font-size:1.2rem;
+    color:#909090;
+    background:url(../image/right.png) center right no-repeat;
+    background-size:1rem 1rem;
+}
+.goodsBox .imgBox{
+    width:100%;
+}
+.goodsBox .imgBox li{
+    float:left;
+    width:48%;
+    height:260px;
+    margin:0 1.3%;
+}
+.goodsBox .imgBox li:nth-of-type(2n){
+    margin-right:0;
+}
+.goodsBox .imgBox li .img{
+    height:162px;
+    width:100%;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    overflow:hidden;
+}
+.goodsBox .imgBox li .words{
+    width:100%;
+    margin:1rem 0;
+    line-height:1.6rem;
+    font-size:1.2rem;
+    color:#454545;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    display:-webkit-box;
+    -webkit-line-clamp:2;
+    -webkit-box-orient:vertical;
+}
+.goodsBox .imgBox li .num{
+    height:2.4rem;
+}
+.goodsBox .imgBox li .num span{
+    float:left;
+    line-height:2.4rem;
+    height:2.4rem;
+}
+.goodsBox .imgBox li .num span:nth-of-type(1){
+    font-size:1.8rem;
+    color:#ff5a5a;
+    padding-left:0.7rem;
+}
+.goodsBox .imgBox li .num span:nth-of-type(2){
+    font-size:1.1rem;
+    color:#c1c1c1;
+    padding-left:0.7rem;
+    text-decoration:line-through;
+}
+.content div:nth-of-type(2){
+    padding-bottom:50px;
+}
+.bottom{
+    position:fixed;
+    width:100%;
+    height:50px;
+    border-top:1px solid #cdcdcd;
+    left:0;
+    bottom:0;
+    display:flex;
+    background-color:white;
+}
+.bottom>a{
+    flex:1;
+    background:url(../image/home.png) center 5px no-repeat;
+    background-size:1.9rem 1.9rem;
+}
+.bottom>a>p{
+    font-size:1.1rem;
+    line-height:1.8rem;
+    text-align: center;
+    margin-top:26px;
+    color:#7f7f7f;
+}
+.bottom>a:nth-of-type(2){
+    background:url(../image/classfiy.png) center 7px no-repeat;
+    background-size:1.5rem 1.5rem;
+}
+.bottom>a:nth-of-type(3){
+    background:url(../image/family.png) center 5px no-repeat;
+    background-size:1.9rem 1.9rem;
+}
+.bottom>a:nth-of-type(4){
+    background:url(../image/cart.png) center 7px no-repeat;
+    background-size:1.6rem 1.6rem;
+}
+.bottom>a:nth-of-type(5){
+    background:url(../image/mine.png) center 5px no-repeat;
+    background-size:1.7rem 1.7rem;
+}
+
