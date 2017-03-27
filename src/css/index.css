@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2017-03-24 13:58:08
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-03-24 18:36:43
+* @Last Modified time: 2017-03-27 11:52:34
 */
 .tabNav{
     width:100%;
@@ -118,12 +118,12 @@
 }
 .seminarBox .imgBox a:nth-of-type(1){
     width:45%;
-    height:236px;
+    height:23.6rem;
 }
 .seminarBox .imgBox a:nth-of-type(2),.seminarBox .imgBox a:nth-of-type(3){
     width:54%;
-    height:116px;
-    margin-left:0.3rem;
+    height:11.6rem;
+    margin-left:1%;
 }
 .seminarBox .imgBox a:nth-of-type(2){
     margin-bottom:4px;
@@ -165,14 +165,14 @@
 .goodsBox .imgBox li{
     float:left;
     width:48%;
-    height:260px;
+    height:26rem;
     margin:0 1.3%;
 }
 .goodsBox .imgBox li:nth-of-type(2n){
     margin-right:0;
 }
 .goodsBox .imgBox li .img{
-    height:162px;
+    height:16.2rem;
     width:100%;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
@@ -210,44 +210,15 @@
     text-decoration:line-through;
 }
 .content div:nth-of-type(2){
-    padding-bottom:50px;
+    padding-bottom:5rem;
 }
-.bottom{
-    position:fixed;
-    width:100%;
-    height:50px;
-    border-top:1px solid #cdcdcd;
-    left:0;
-    bottom:0;
-    display:flex;
-    background-color:white;
+.bottom>a:nth-of-type(1) p{
+    color:#b12819;
 }
-.bottom>a{
-    flex:1;
-    background:url(../image/home.png) center 5px no-repeat;
+.bottom>a:nth-of-type(1) p{
+    color:#b12819;
+}
+.bottom>a:nth-of-type(1){
+    background:url(../image/homeCol.png) center .5rem no-repeat;
     background-size:1.9rem 1.9rem;
 }
-.bottom>a>p{
-    font-size:1.1rem;
-    line-height:1.8rem;
-    text-align: center;
-    margin-top:26px;
-    color:#7f7f7f;
-}
-.bottom>a:nth-of-type(2){
-    background:url(../image/classfiy.png) center 7px no-repeat;
-    background-size:1.5rem 1.5rem;
-}
-.bottom>a:nth-of-type(3){
-    background:url(../image/family.png) center 5px no-repeat;
-    background-size:1.9rem 1.9rem;
-}
-.bottom>a:nth-of-type(4){
-    background:url(../image/cart.png) center 7px no-repeat;
-    background-size:1.6rem 1.6rem;
-}
-.bottom>a:nth-of-type(5){
-    background:url(../image/mine.png) center 5px no-repeat;
-    background-size:1.7rem 1.7rem;
-}
-
