@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2017-03-27 14:11:38
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-03-27 14:46:31
+* @Last Modified time: 2017-03-28 11:35:26
 */
 .list{
     display:flex;
@@ -46,9 +46,11 @@
     overflow:hidden;
 }
 .imgBox li .words{
-    width:100%;
+    width:92%;
+    padding-left:4%;
     margin:1rem 0;
     line-height:1.6rem;
+    height:3.2rem;
     font-size:1.2rem;
     color:#454545;
     overflow:hidden;

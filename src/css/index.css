@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2017-03-24 13:58:08
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-03-27 11:52:34
+* @Last Modified time: 2017-03-28 11:38:23
 */
 .tabNav{
     width:100%;
@@ -179,9 +179,11 @@
     overflow:hidden;
 }
 .goodsBox .imgBox li .words{
-    width:100%;
+    width:92%;
+    padding-left:4%;
     margin:1rem 0;
     line-height:1.6rem;
+    height:3.2rem;
     font-size:1.2rem;
     color:#454545;
     overflow:hidden;

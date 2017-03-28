@@ -1,0 +1,43 @@
+/* 
+* @Author: Marte
+* @Date:   2017-03-28 14:06:59
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-03-28 14:36:27
+*/
+.searchBox .right{
+    background:url(../image/share.png) center center no-repeat;
+    background-size:1.8rem 2rem;
+}
+.article-title{
+    padding:0 25%;
+    line-height:2.4rem;
+    margin-top:1.2rem;
+    text-align: center;
+    font-size:1.3rem;
+    color:#666;
+}
+.article-time{
+    font-size:1.2rem;
+    color:#818181;
+    text-align: center;
+    line-height:4rem;
+    margin-bottom:0.5rem;
+}
+.article-content{
+    font-size:1.2rem;
+    color:#666;
+    line-height:2.2rem;
+    padding:0 1.2rem;
+    margin-bottom:3.3rem;
+}
+.other-article{
+    padding:0 3%;
+}
+.other-article li{
+    float:left;
+    width:47%;
+    height:10.3rem;
+}
+.other-article li:nth-of-type(2n+1){
+    margin-right:3%;
+}

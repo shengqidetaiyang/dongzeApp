@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2017-03-27 14:58:50
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-03-27 18:35:57
+* @Last Modified time: 2017-03-28 10:26:46
 */
 /*.swiper-pagination span{
     background-color:#b12819;
@@ -227,6 +227,7 @@
     background-color: white;
     z-index:5;
     padding-top:4.7rem;
+    display:none;
 }
 .numChoose .close{
     position:absolute;
@@ -246,4 +247,60 @@
 }
 .numChoose .goods .right{
     padding-top:2.6rem;
+    margin-left:3%;
+}
+.numChoose .goods .right p:nth-of-type(1){
+    color:#b12819;
+    font-size:1.2rem;
+    line-height:2rem;
+}
+.numChoose .goods .right p:nth-of-type(2){
+    color:#454545;
+    font-size:1.2rem;
+    line-height:2rem;
+}
+.numChoose .weight{
+    font-size:1.3rem;
+    color:#454545;
+    line-height:4rem;
+}
+.numChoose .select{
+    height:3.5rem;
+    margin-bottom:1.3rem;
+}
+.numChoose .select span{
+    box-sizing: border-box;
+    float:left;
+    width:16%;
+    height:3.5rem;
+    border:1px solid #454545;
+    margin-right:2.4%;
+    border-radius:2px;
+    line-height:3.5rem;
+    text-align: center;
+    color:#454545;
+}
+.numChoose .select .s-this{
+    border-color:#b12819;
+    color:#b12819;
+}
+.numChoose .numConfirm{
+    height:3.5rem;
+} 
+.numChoose .numConfirm span{
+    float:left;
+    box-sizing: border-box;
+    border:1px solid #454545;
+    height:3.5rem;
+    margin-right:1.5%;
+    border-radius:2px;
+    line-height:3.5rem;
+    text-align: center;
+    font-size:1.5rem;
+}
+.numChoose .numConfirm span:nth-of-type(1),.numChoose .numConfirm span:nth-of-type(3){
+    width:10%;
+}
+.numChoose .numConfirm span:nth-of-type(2){
+    width:17%;
 }

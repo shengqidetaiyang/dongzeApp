@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2017-03-27 10:09:56
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-03-27 10:46:59
+* @Last Modified time: 2017-03-28 15:09:08
 */
 .bottom{
     position:fixed;
@@ -16,7 +16,7 @@
 }
 .bottom>a{
     flex:1;
-    background:url(../../image/homeCol.png) center 5px no-repeat;
+    background:url(../../image/homeCol.png) center .5rem no-repeat;
     background-size:1.9rem 1.9rem;
 }
 .bottom>a>p{
@@ -27,18 +27,18 @@
     color:#7f7f7f;
 }
 .bottom>a:nth-of-type(2){
-    background:url(../../image/classfiy.png) center 7px no-repeat;
+    background:url(../../image/classfiy.png) center .7rem no-repeat;
     background-size:1.5rem 1.5rem;
 }
 .bottom>a:nth-of-type(3){
-    background:url(../../image/family.png) center 5px no-repeat;
+    background:url(../../image/family.png) center .5rem no-repeat;
     background-size:1.9rem 1.9rem;
 }
 .bottom>a:nth-of-type(4){
-    background:url(../../image/cart.png) center 7px no-repeat;
+    background:url(../../image/cart.png) center .7rem no-repeat;
     background-size:1.6rem 1.6rem;
 }
 .bottom>a:nth-of-type(5){
-    background:url(../../image/mine.png) center 5px no-repeat;
+    background:url(../../image/mine.png) center .5rem no-repeat;
     background-size:1.7rem 1.7rem;
 }
