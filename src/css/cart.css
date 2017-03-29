@@ -2,8 +2,22 @@
 * @Author: Marte
 * @Date:   2017-03-28 15:01:32
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-03-28 18:35:53
+* @Last Modified time: 2017-03-29 18:26:34
 */
+.searchBox{
+    position:relative;
+}
+.searchBox .finish{
+    position:absolute;
+    right:0;
+    top:0;
+    width: 5.4rem;
+    height:4.4rem;
+    line-height:4.4rem;
+    color:#454545;
+    text-align: center;
+    display:none;
+}
 .searchBox .right{
     background:none;
     height:4.4rem;
@@ -26,11 +40,15 @@
 .bottom>a:nth-of-type(4) p{
     color:#b12819;
 }
+.goodsList{
+    /*display:none;*/
+}
 .goodsList li{
     position:relative;
     width:94%;
     height:6.4rem;
     padding:0.8rem 3%;
+    margin-bottom:.6rem;
 }
 .searchBox {
     margin-bottom:0.7rem;
@@ -89,7 +107,7 @@
     color:#454545;
     text-align: right;
 }
-.goods-price .price-new span{
+.goods-price .price-new .flag{
     font-size:1.2rem;
 }
 .goods-price .price-origin{
@@ -158,6 +176,7 @@
     height:5.2rem;
     line-height:5.2rem;
     padding-left:3%;
+/*    display:none;*/
 }
 .cal-bottom>div,.cal-bottom input{
     float:left;
@@ -210,4 +229,27 @@
     color:white;
     text-align: center;
     font-size:1.5rem;
+}
+.sel-all input{
+    opacity:0;
+    width:0;
+    height:0;
+}
+.cal-bottom .sel-all-active{
+    background:url(../image/cartSelected.png) left center no-repeat;
+    background-size:1.7rem 1.7rem;    
+}
+.noGoods{
+    position:absolute;
+    left:32%;
+    top:10rem;
+    width:35%;
+    height:15rem;
+    display:none;
+}
+.noGoods p{
+    text-align: center;
+    line-height:3rem;
+    font-size:1.3rem;
+    color:#666;
 }

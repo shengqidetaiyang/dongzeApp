@@ -15,6 +15,11 @@
             <a href = "./index.html" class="left"></a>
             <span class="middle">购物车</span>
             <span class="right">编辑</span>
+            <span class = "finish">完成</span>
+        </div>
+        <div class = "noGoods">
+            <img src="../image/noGoods.png" alt="" />
+            <p>暂无任何商品</p>
         </div>
         <form action="">
             <ul class = "goodsList">
@@ -27,13 +32,17 @@
                     </div>
                     <div class = "goods-words">
                         <p class = "name">正宗东北长粒大香米正宗东北长粒大香米正宗东北长粒大香米</p>
-                        <p class = "num">数量：1件</p>
+                        <p class = "num">
+                            <span>数量：</span>
+                            <span class = "number">1</span>
+                            <span>件</span>
+                        </p>
                         <p class = "type">规格：50千克</p>
                     </div>
                     <div class = "goods-price">
                         <p class = "price-new">
-                            <span>￥</span>
-                            120.00
+                            <span class = "flag">￥</span>
+                            <span class = "num">120.02</span>
                         </p>
                         <p class = "price-origin">￥220.00</p>
                     </div>
@@ -52,9 +61,50 @@
                         删除
                     </div>
                 </li>
+                <li>
+                    <div class = "select-icon">
+                        <input type="checkbox" name="goodssel">
+                    </div>
+                    <div class = "goods-img">
+                        <img src="../image/goods.jpg" alt="" />
+                    </div>
+                    <div class = "goods-words">
+                        <p class = "name">正宗东北长粒大香米正宗东北长粒大香米正宗东北长粒大香米</p>
+                        <p class = "num">
+                            <span>数量：</span>
+                            <span class = "number">1</span>
+                            <span>件</span>
+                        </p>
+                        <p class = "type">规格：50千克</p>
+                    </div>
+                    <div class = "goods-price">
+                        <p class = "price-new">
+                            <span class = "flag">￥</span>
+                            <span class = "num">120.00</span>
+                        </p>
+                        <p class = "price-origin">￥220.00</p>
+                    </div>
+                    <div class = "choose-box">
+                        <p class = "sel-num">
+                            <span class = "minus">-</span>
+                            <span class = "num">2</span>
+                            <span class = "plus">+</span>
+                        </p>
+                        <select name="type" id="" class = "sel-type">
+                            <option value="50">规格：50千克</option>
+                            <option value="50">规格：100千克</option>
+                        </select>
+                    </div>
+                    <div class="goods-del">
+                        删除
+                    </div>
+                </li>
             </ul>
             <div class="cal-bottom">
-                <div class = "sel-all">全选</div>
+                <div class = "sel-all">
+                    <input type="checkbox" name="all-sel">
+                    <span>全选</span>
+                </div>
                 <input type="submit" / value = "结算" class = "sel-cal">
                 <div class = "sel-del">删除</div>
                 <div class = "sel-total">
