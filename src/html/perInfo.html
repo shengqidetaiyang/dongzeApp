@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="../css/comm/base.css" />
+        <link rel="stylesheet" type="text/css" href="../css/perInfo.css" />
+        <link rel="stylesheet" type="text/css" href="../css/lCalendar.css" />
+        <script type="text/javascript" src="../js/jquery-3.1.1.min.js"></script>
+        <script type="text/javascript" src="../js/rem.js"></script>
+    </head>
+    <body>
+        <div class="top">
+            <a href = "./perCenter.html" class = "icon"></a>
+            <p>个人信息</p>
+            <span class = "save">保存</span>
+        </div>
+        <div class="img">
+            <img src="../image/comment.png" alt="" />
+        </div>
+        <p class = "changeImg">点击修改图像</p>
+        <p class="list">
+            <span class = "name">用户ID</span>
+            <span class = "num">1234</span>
+        </p>
+        <p class="list">
+            <span class = "name">账号</span>
+            <span class = "num">12345667</span>
+        </p>
+        <p class="list sel">
+            <span class = "name">性别</span>
+            <select name="" id="">
+                <option value="">男</option>
+                <option value="">女</option>
+            </select>
+            <span class = "i"></span>
+        </p>
+        <p class="list sel">
+            <span class = "name">出生日期</span>
+            <input id="demo1" type="text" readonly="" name="input_date"  data-lcalendar="1900-01-11,2017-05-29" />
+            <span class = "i"></span>
+        </p>
+        <p class="list sel">
+            <span class = "name">用户类型</span>
+            <select name="" id="">
+                <option value="">体验用户</option>
+                <option value="">会员用户</option>
+            </select>
+            <span class = "i"></span>
+        </p>
+        <p class="list">
+            <span class = "name">邮箱</span>
+            <span class = "num">49440712df@a.com</span>            
+        </p>
+        <p class="list last">
+            <span class = "wrap">
+                <input type="checkbox" />
+            </span>
+            <span class = "tips">选中表示“愿意接受来自平台公共邮箱的咨询内容”</span>
+        </p>
+        <script type="text/javascript" src="../js/perInfo.js"></script>
+        <script type="text/javascript" src="../js/lCalendar.min.js"></script>
+        <script type="text/javascript">
+            var calendar = new lCalendar();
+            calendar.init({
+                'trigger': '#demo1',
+                'type': 'date'
+            });
+        </script>
+    </body>
+</html>

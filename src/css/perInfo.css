@@ -1,0 +1,117 @@
+/* 
+* @Author: Marte
+* @Date:   2017-03-30 16:23:43
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-03-30 18:30:08
+*/
+*{
+    font-size:1.2rem;
+    color:#454545;
+}
+.top{
+    position:relative;
+}
+.top p{
+    height:4.4rem;
+    line-height:4.4rem;
+    font-size:1.3rem;
+    color:#000;
+    text-align: center;
+}
+.top .save{
+    position:absolute;
+    height:4.4rem;
+    width:6rem;
+    top:0;
+    right:0;
+    line-height:4.4rem;
+    text-align: center;
+    font-size:1.3rem;
+    color:#000;
+}
+.top .icon{
+    background:url(../image/leftCol.png) center center no-repeat;
+    background-size:0.7rem 1.3rem;
+    position:absolute;
+    height:4.4rem;
+    width:6rem;
+    top:0;
+    left:0;
+}
+.img{
+    width:8.5rem;
+    height:8.5rem;
+    margin:0 auto;
+    margin-top:2rem;
+}
+.changeImg{
+    height:3.6rem;
+    line-height:3.6rem;
+    margin-bottom:2.5rem;
+    color:#818181;
+    text-align: center;
+}
+.list{
+    height:5rem;
+    line-height:5rem;
+    width:94%;
+    margin-left:3%;
+    border-bottom:1px solid #d9d9d9;
+    position:relative;
+}
+.last{
+    border-bottom:0;
+    margin-bottom:5rem;
+}
+.list span{
+    font-size:1.3rem;
+}
+.list .name{
+    float:left;
+    padding-left:0.6rem;
+}
+.list .num{
+    float:right;
+    padding-right:2.5rem;
+}
+.list select,.list #demo1{
+    float:right;
+    height:4.8rem;
+    line-height:5rem;
+    border:none;
+    padding-right:2.5rem;
+    padding-left:50%;
+    background-color:rgba(0, 0, 0, 0.0);
+}
+.list #demo1{
+    padding-left:0;
+    border-width:0;
+    font-size:1.3rem;
+    text-align: right;
+}
+.list .i{
+    position:absolute;
+    right:0;
+    top:0;
+    width:1rem;
+    height:5rem;
+    background:url(../image/right.png) center center no-repeat;
+    background-size:1.5rem 1.5rem;
+    z-index:-1;
+}
+.list .tips{
+    padding-left:1rem;
+}
+.list .wrap{
+    display:inline-block;
+    width:2rem;
+    height:2rem;
+    border:1px solid #cccccc;
+    border-radius:2px;
+    margin-top:1.5rem;
+    vertical-align: top;
+}
+.list .active{
+    background:url(../image/iconfont-dagou.png) center center no-repeat;
+    background-size:1rem 0.8rem;   
+}
