@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2017-03-30 14:00:49
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-03-30 15:28:28
+* @Last Modified time: 2017-03-30 16:01:47
 */
 *{
     font-size:1.2rem;
@@ -113,39 +113,39 @@
 .list .words{
     text-indent:1rem;
 }
-.content>a:nth-of-type(1) .icon{
+.content>.list:nth-of-type(1) .icon{
     background:url(../image/perAdress.png) center center no-repeat;
     background-size:1.3rem 1.8rem;
 }
-.content>a:nth-of-type(2) .icon{
+.content>.list:nth-of-type(2) .icon{
     background:url(../image/perCollection.png) center center no-repeat;
     background-size:1.8rem 1.7rem;
 }
-.content>a:nth-of-type(3) .icon{
+.content>.list:nth-of-type(3) .icon{
     background:url(../image/perWish.png) center center no-repeat;
     background-size:1.8rem 1.5rem;
 }
-.content>a:nth-of-type(4) .icon{
+.content>.list:nth-of-type(4) .icon{
     background:url(../image/perCo.png) center center no-repeat;
     background-size:1.6rem 1.6rem;
 }
-.content>a:nth-of-type(5) .icon{
+.content>.list:nth-of-type(5) .icon{
     background:url(../image/perCount.png) center center no-repeat;
     background-size:1.6rem 1.7rem;
 }
-.content>a:nth-of-type(6) .icon{
+.content>.list:nth-of-type(6) .icon{
     background:url(../image/perSer.png) center center no-repeat;
     background-size:1.9rem 1.9rem;
 }
-.content>a:nth-of-type(7) .icon{
+.content>.list:nth-of-type(7) .icon{
     background:url(../image/perHelp.png) center center no-repeat;
     background-size:1.9rem 1.9rem;
 }
-.content>a:nth-of-type(8) .icon{
+.content>.list:nth-of-type(8) .icon{
     background:url(../image/perAbout.png) center center no-repeat;
     background-size:1.8rem 1.5rem;
 }
-.content>a:nth-of-type(9) .icon{
+.content>.list:nth-of-type(9) .icon{
     background:url(../image/perSet.png) center center no-repeat;
     background-size:1.8rem 1.6rem;
 }
