@@ -1,0 +1,182 @@
+/* 
+* @Author: Marte
+* @Date:   2017-03-31 09:58:29
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-03-31 11:55:31
+*/
+*{
+    color:#454545;
+    font-size:1.2rem;
+}
+.top{
+    height:4.4rem;
+    position:relative;
+}
+.top .icon{
+    position: absolute;
+    width:10%;
+    height:4.4rem;
+    left:0;
+    top:0;
+    background:url(../image/leftCol.png) center center no-repeat;
+    background-size:0.7rem 1.3rem;
+}
+.top p{
+    line-height:4.4rem;
+    height:4.4rem;
+    font-size:1.3rem;
+    text-align: center;
+}
+nav{
+    height:5rem;
+    display: flex;
+    border-bottom:1px solid #d9d9d9;
+
+}
+nav a {
+    flex:1;
+    position:relative;
+}
+nav a p{
+    height:5rem;
+    line-height:5rem;
+    text-align: center;
+}
+nav a .border{
+    position:absolute;
+    width:1.8rem;
+    height:3px;
+    background-color: #b12819;
+    left:50%;
+    margin-left:-.9rem;
+    bottom:0;
+    border-radius:3px;
+    display:none;
+}
+.waitPay{
+    margin-bottom: 1rem;
+}
+nav .active .border{
+    display:block;
+}
+.waitPay .top{
+    padding:0 3%;
+    height:2.8rem;
+    width:94%;
+}
+.waitPay .top span{
+    float:left;
+    height:2.8rem;
+    line-height:2.8rem;
+    color:#666;
+}
+.waitPay .top span:nth-of-type(2){
+    float:right;
+    color:#b12919;
+}
+
+
+.waitPay .middle{
+    width:94%;
+    margin-left:3%;
+    height:5.5rem;
+    padding:1rem 0;
+    border-top:1px dashed #d9d9d9;
+    border-bottom:1px dashed #d9d9d9;
+}
+.waitPay .middle div{
+    float:left;
+    height:5.5rem;
+}
+.waitPay .middle div:nth-of-type(1){
+    width:16%;
+}
+.waitPay .middle div:nth-of-type(2) p{
+    text-indent:1rem;
+}
+.waitPay .middle div:nth-of-type(2) p:nth-of-type(1){
+    line-height:3.2rem;
+    color:#666;
+}
+.waitPay .middle div:nth-of-type(2) p:nth-of-type(2){
+    line-height:1.9em;
+    color:#b3b3b3;
+}
+.waitPay .middle div:nth-of-type(3){
+    float:right;
+    padding-top:1rem;
+}
+.waitPay .middle div:nth-of-type(3) p:nth-of-type(1){
+    line-height:2.1rem;
+    font-size:1.8rem;
+}
+.waitPay .middle div:nth-of-type(3) p:nth-of-type(1) span:nth-of-type(1){
+    font-size:1.2rem;
+}
+.waitPay .middle div:nth-of-type(3) p:nth-of-type(2){
+    line-height:1.7rem;
+    color:#b3b3b3;
+    text-decoration: line-through;
+}
+
+.waitPay .bottom{
+    height:2.8rem;
+    line-height:2.7rem;
+    padding:0 3%;
+    width:94%;
+    margin-top:0.8rem;
+}
+.waitPay .bottom span:nth-of-type(1){
+    float:left;
+}
+.waitPay .bottom span:nth-of-type(2),.waitPay .bottom span:nth-of-type(3){
+    float:right;
+    width:16%;
+    box-sizing: border-box;
+    border:1px solid #6f6f6f;
+    margin-right:0.3rem;
+    border-radius:3px;
+    text-align: center;
+    font-size:1.2rem;
+}
+.waitPay .bottom span:nth-of-type(2){
+    background-color: #b12919;
+    color:white;
+    border-color:#b12819;
+}
+
+.waitComment .top span:nth-of-type(2){
+    color:#454545;
+}
+.orderCancel .top span:nth-of-type(2){
+    color:#454545;
+}
+.waitReceive .top span:nth-of-type(2){
+    color:#454545;
+}
+.orderCancel .bottom span:nth-of-type(2){
+    background-color: white;
+    color:#454545;
+    border-color:#6f6f6f;
+}
+.waitReceive .bottom span:nth-of-type(2){
+    background-color: white;
+    color:#454545;
+    border-color:#6f6f6f;
+}
+
+ul{
+    /*display:none;*/
+}
+.noneOrder{
+    width:40%;
+    margin-left:30%;
+    margin-top:7rem;
+    display:none;
+}
+.noneOrder p{
+    line-height:2.5rem;
+    color:#666;
+    font-size:1.3rem;
+    text-align: center;
+}

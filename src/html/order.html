@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="../css/comm/base.css" />
+        <link rel="stylesheet" type="text/css" href="../css/order.css" />
+        <script type="text/javascript" src="../js/jquery-3.1.1.min.js"></script>
+        <script type="text/javascript" src="../js/rem.js"></script>
+    </head>
+    <body>
+        <div class="top">
+            <a href = "./perCenter.html" class="icon"></a>
+            <p>我的订单</p>
+        </div>
+        <nav>
+            <a href="./order.html" class = "active">
+                <p>全部</p>
+                <span class = "border"></span>
+            </a>
+            <a href="./waitPay.html">
+                <p>待付款</p>
+                <span class = "border"></span>
+            </a>
+            <a href="./waitSent.html">
+                <p>待发货</p>
+                <span class = "border"></span>
+            </a>
+            <a href="./waitReceive.html">
+                <p>待收货</p>
+                <span class = "border"></span>
+            </a>
+            <a href="./waitComment.html">
+                <p>待评价</p>
+                <span class = "border"></span>
+            </a>
+        </nav>
+        <ul>
+            <li class="waitPay">
+                <div class="top">
+                    <span>订单编号：1234</span>
+                    <span>等待买家付款</span>
+                </div>
+                <div class="middle">
+                    <div><img src="../image/seminarSecond.jpg" alt="" /> </div>
+                    <div>
+                        <p>正宗东北香大米</p>
+                        <p>1件</p>
+                    </div>
+                    <div>
+                        <p>
+                            <span>￥</span>
+                            <span>120.00</span>
+                        </p>
+                        <p>
+                            ￥220.00
+                        </p>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <span>合计￥120.00（含运费￥0.00）</span>
+                    <span>付款</span>
+                    <span>删除订单</span>
+                </div>
+            </li>            
+        </ul>
+        <ul>
+            <li class="waitPay waitComment">
+                <div class="top">
+                    <span>订单编号：1234</span>
+                    <span>待评价</span>
+                </div>
+                <div class="middle">
+                    <div><img src="../image/seminarSecond.jpg" alt="" /> </div>
+                    <div>
+                        <p>正宗东北香大米</p>
+                        <p>1件</p>
+                    </div>
+                    <div>
+                        <p>
+                            <span>￥</span>
+                            <span>120.00</span>
+                        </p>
+                        <p>
+                            ￥220.00
+                        </p>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <span>合计￥120.00（含运费￥0.00）</span>
+                    <span>去评价</span>
+                    <span>删除订单</span>
+                </div>
+            </li>           
+        </ul>
+        <ul>
+            <li class="waitPay orderCancel">
+                <div class="top">
+                    <span>订单编号：1234</span>
+                    <span>已取消</span>
+                </div>
+                <div class="middle">
+                    <div><img src="../image/seminarSecond.jpg" alt="" /> </div>
+                    <div>
+                        <p>正宗东北香大米</p>
+                        <p>1件</p>
+                    </div>
+                    <div>
+                        <p>
+                            <span>￥</span>
+                            <span>120.00</span>
+                        </p>
+                        <p>
+                            ￥220.00
+                        </p>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <span>合计￥120.00（含运费￥0.00）</span>
+                    <span>删除订单</span>
+                </div>
+            </li>            
+        </ul>
+        <ul>
+            <li class="waitPay waitReceive">
+                <div class="top">
+                    <span>订单编号：1234</span>
+                    <span>待收货</span>
+                </div>
+                <div class="middle">
+                    <div><img src="../image/seminarSecond.jpg" alt="" /> </div>
+                    <div>
+                        <p>正宗东北香大米</p>
+                        <p>1件</p>
+                    </div>
+                    <div>
+                        <p>
+                            <span>￥</span>
+                            <span>120.00</span>
+                        </p>
+                        <p>
+                            ￥220.00
+                        </p>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <span>合计￥120.00（含运费￥0.00）</span>
+                    <span>申请售后</span>
+                    <span>追踪物流</span>
+                </div>
+            </li>            
+        </ul>
+        <div class="noneOrder">
+            <img src="../image/orderNone.jpg" alt="" />
+            <p>暂无相关订单</p>
+        </div>
+        <script type="text/javascript" src="../js/order.js"></script>
+    </body>
+</html>
