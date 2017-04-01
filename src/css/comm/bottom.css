@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2017-03-27 10:09:56
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-04-01 12:03:43
+* @Last Modified time: 2017-04-01 12:13:04
 */
 .bottom{
     position:fixed;
@@ -16,6 +16,7 @@
     display:-webkit-box;
     display:-webkit-flex;
     display:-ms-flexbox; 
+    z-index:101;
 }
 .bottom>a{
     flex:1;
