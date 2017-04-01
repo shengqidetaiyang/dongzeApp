@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2017-03-24 13:58:08
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-04-01 13:34:24
+* @Last Modified time: 2017-04-01 13:47:35
 */
 .tabNav{
     width:100%;
@@ -41,7 +41,7 @@
     float:left;
     width:28%;
     margin-left:1rem;
-    margin-top:0.9rem;
+    margin-top:0.8rem;
     margin-right:1.5rem;
 }
 .searchWrap{
