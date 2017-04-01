@@ -3,7 +3,7 @@
 * @Date:   2017-03-30 14:00:49
 * @Last Modified by:   Marte
 <<<<<<< HEAD
-* @Last Modified time: 2017-03-30 15:58:41
+* @Last Modified time: 2017-04-01 13:38:42
 =======
 * @Last Modified time: 2017-03-30 16:01:47
 >>>>>>> refs/remotes/origin/master
@@ -59,11 +59,11 @@
 .menu{
     width:94%;
     margin-left:3%;
-    display:flex;
     margin-bottom:1rem;
 }
-.menu a{
-    flex:1;
+.menu>a{
+    width:20%;
+    float:left;
     height:5.7rem;
     position:relative;
     background:url(../image/perPay.png) center 1.7rem no-repeat;
