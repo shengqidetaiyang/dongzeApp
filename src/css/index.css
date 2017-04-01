@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2017-03-24 13:58:08
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-03-28 11:38:23
+* @Last Modified time: 2017-04-01 11:49:35
 */
 .tabNav{
     width:100%;
@@ -54,7 +54,7 @@
     float:left;
     width:3rem;
     height:3.5rem;
-    background:url(../image/searchLogo.png) center center no-repeat;
+    background:url(../image/searchLogo.png) center 1.3rem no-repeat;
     background-size:1.5rem 1.5rem;
 }
 .searchWrap input{
