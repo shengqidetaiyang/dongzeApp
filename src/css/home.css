@@ -2,20 +2,23 @@
 * @Author: Marte
 * @Date:   2017-03-28 11:29:43
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-03-28 14:00:20
+* @Last Modified time: 2017-04-01 14:04:06
 */
 .searchBox{
     margin-bottom:1rem;
 }
 nav{
-    display: flex;
-    justify-content: space-between;
     margin-bottom:1.5rem;
 }
 nav .nav-list{
+    float:left;
     width:32%;
+    margin-right:2%;
     height:8rem;
     position: relative;
+}
+nav .nav-list:nth-of-type(3){
+    margin-right:0;
 }
 nav .nav-list .meng{
     position:absolute;
